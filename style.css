@@ -5,8 +5,8 @@ body {
 
 .centerFlex {
     display: flex;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
     height: 100%;
 }
 
@@ -14,7 +14,7 @@ body {
     font-family: sans-serif;
     font-size: 16px;
     color: #333;
-    max-width: 50em;
+    max-width: 60em;
     line-height: 1.25;
     margin: auto 0;
     padding: 1em;
@@ -47,7 +47,8 @@ body {
     align-items: center;
 }
 
-.title img {
+.main img {
+    float:right;
     margin-right: 1em;
-    width: 50em;
+    width: 20em;
 }
